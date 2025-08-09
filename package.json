@@ -1,0 +1,16 @@
+{
+  "name": "wisp",
+  "version": "1.0.0",
+  "description": "**Wisp** is a lightweight AI desktop assistant that lets you ask questions to browser-based AI tools instantly via a global shortcut. No API key required — fully automated with Puppeteer.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^37.2.6",
+    "puppeteer": "^24.16.0"
+  }
+}
